@@ -3,3 +3,66 @@
     width: 500px;
     color: rebeccapurple;
 }
+
+/*.cont-art {*/
+/*    !*padding: 1em;*!*/
+/*    !*!*background: ;*!*!*/
+/*    !*width: max-content;*!*/
+/*}*/
+article {
+    padding: 1em;
+    /*background: ;*/
+    width: max-content;
+}
+p {
+    width: 50ch;
+    background: aqua;
+    border: 3em solid black;
+    padding: 2em;
+    background-clip:padding-box;
+    /*background: white;*/
+}
+/*.container {*/
+/*    box-sizing: content-box;*/
+/*    width: 700px;*/
+/*    height: 200px;*/
+/*}*/
+.container {
+    width: 800px;
+    height: 250px;
+}
+
+.box1 {
+    box-sizing: border-box;
+    width: 30%;
+
+}
+.box2 {
+    box-sizing: border-box;
+    width: 30%;
+}
+/*.container > div {*/
+/*    margin: 0;*/
+/*    padding: 0.5em;*/
+/*    border: 2px silver ridge;*/
+/*    float: left;*/
+/*    text-align: center;*/
+/*    background: aqua;*/
+/*}*/
+.show {
+    box-sizing: content-box;
+    width: 600px;
+    height: 200px;
+}
+.show > p {
+    margin: 0;
+    padding: 0.5em;
+    float: left;
+    background: purple;
+    border: 2px silver ridge;
+    text-align: center;
+}
+.box3 {
+    box-sizing:border-box;
+    width: 30%;
+}
